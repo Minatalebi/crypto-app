@@ -1,9 +1,12 @@
 import HomePages from "./assets/components/templates/HomePages";
+import Layout from "./layout/Layout";
 
 function App() {
   return (
     <>
-      <HomePages />
+      <Layout>
+        <HomePages />
+      </Layout>
     </>
   );
 }
